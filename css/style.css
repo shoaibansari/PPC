@@ -1,0 +1,460 @@
+body
+{
+	margin:0px;
+}
+@font-face
+{
+	font-family: gothamcondensed-bold;
+    src:url(../fonts/ufonts.com_gothamcondensed-bold-opentype.otf);
+}
+
+@font-face
+{
+	font-family: GothamNarrow-Bold;
+    src:url(../fonts/GothamNarrow-Bold.otf);
+}
+@font-face
+{
+	font-family: gothamcondensed-medium;
+    src:url(../fonts/ufonts.com_gothamcondensed-medium-opentype.otf);
+}
+@font-face
+{
+	font-family: GothamNarrow-Medium;
+    src:url(../fonts/GothamNarrow-Medium.otf);
+}
+@font-face
+{
+	font-family: GothamNarrow-Book;
+    src:url(../fonts/GothamNarrow-Book.otf);
+}
+/*******cover********/
+.cover
+{
+	height:719px;
+	width:1024px;
+	/*background-color:#666*/;
+	background-image:url(../img/cover2.png);
+	background-repeat:no-repeat;
+	overflow:hidden;
+}
+.cover_logo
+{
+	height:36px;
+	width:98px;
+	/*background-color:#0FF;*/
+	background-image:url(../img/logo_front.png);
+	background-repeat:no-repeat;
+	float: right;
+    margin-right: 40px;
+    margin-top: 20px;
+}
+.cover_txt
+{
+    height: 224px;
+    width: 305px;
+    /* background-color: #0CF; */
+    color: #585858;
+    font-family: gothamcondensed-bold;
+    float: right;
+    font-size: 4.5em;
+    margin-top: 80px;
+    margin-right: 70px;
+    text-transform: uppercase;
+}
+.strt_btn
+{
+	height:61px;
+	width:298px;
+	/*background-color:#0FF;*/
+	background-image:url(../img/strt_btn.png);
+	background-repeat:no-repeat;
+	float: right;
+    margin-top: 265px;
+}
+/*******cover********/
+
+/*******inside_cover********/
+.inside_cover
+{
+    height:719px;
+	width:1024px;
+	background-color:#333;
+	background-image:url(../img/inside_bg.png);
+	background-repeat:no-repeat;
+	overflow:hidden;	
+}
+/*.inside_logo
+{
+    height: 28px;
+    width: 78px;
+     background-color: #0FF; 
+    background-image: url(../img/inside_logo.png);
+    background-repeat: no-repeat;
+    float: right;
+    margin-top: 16px;
+    margin-right: 32px;
+}*/
+.inside_had_txt
+{
+   /* height: 33px;*/
+  /*  width: 503px;*/
+    /* background-color: #0FF; */
+    color: #FFF;
+    font-family: GothamNarrow-Bold;
+    float: left;
+    text-transform: uppercase;
+    margin-top: 18px;
+    margin-left: 35px;
+    font-size: 1.5em;
+}
+.table_heading
+{
+    /* height: 26px; */
+    /* width: 315px; */
+    /* background-color: #0FF; */
+    font-family: gothamcondensed-medium;
+    color: #FFF;
+    float: left;
+    margin-left: -403px;
+    margin-top: 78px;
+    font-size: x-large;
+}
+.table_right_heading
+{
+   /*height: 26px; */
+    /* width: 315px; */
+    /* background-color: #0FF; */
+    font-family: gothamcondensed-medium;
+    color: #FFF;
+    float: right;
+	font-size: x-large;
+    margin-right: 133px;
+    margin-top: 78px;
+}
+.left_table
+{
+	height:575px;
+	width:455px;
+	background-image:url(../img/left_table.png);
+	background-repeat:no-repeat;
+	margin-top: 115px;
+    float: left;
+    margin-left: -403px;
+}
+.right_table_medium
+{
+	height:227px;
+	width:455px;
+	background-image:url(../img/right_table_medium.png);
+	background-repeat:no-repeat;
+	float: right;
+    margin-top: 11px;
+    margin-right: 34px;
+}
+.right_table_small
+{
+	height:189px;
+	width:455px;
+	background-image:url(../img/right_table_small.png);
+	background-repeat:no-repeat;
+	float: right;
+    margin-right: 34px;
+    margin-top: 20px;
+	
+}
+.view_profit_btn
+{
+	height:47px;
+	width:275px;
+	background-image:url(../img/view_btn.png);
+	background-repeat:no-repeat;
+	float: right;
+    margin-right: 130px;
+    margin-top: 60px;
+}
+/*******inside_cover********/
+
+/*******table_txt********/
+.Client_Price
+{
+    height: 18px;
+    width: 81px;
+    /*background-color: #0FF;*/    
+	font-family: GothamNarrow-Medium;
+    color: #FFF;
+    float: right;
+    margin-right: 38px;
+    margin-top: 11px;
+}
+.Vet_Cost
+{
+	height: 18px;
+    width: 61px;
+    /*background-color: #0FF;*/
+    font-family: GothamNarrow-Medium;
+    color: #FFF;
+    float: right;
+    margin-right: 81px;
+    margin-top: 11px;
+}
+.Cost_Quest
+{
+    height: 18px;
+    width: 90px;
+    /* background-color: #0FF; */
+    font-family: GothamNarrow-Medium;
+    color: #FFF;
+    float: right;
+    margin-right: -140px;
+    margin-top: 118px;
+}
+.Cost_Quest_Plus
+{
+    height: 18px;
+    width: 123px;
+    /* background-color: #0FF; */
+    font-family: GothamNarrow-Medium;
+    color: #FFF;
+    float: right;
+    margin-right: -156px;
+    margin-top: 187px;
+}
+.Cost_Anthelcide
+{
+    height: 18px;
+    width: 124px;
+    /* background-color: #0FF; */
+    font-family: GothamNarrow-Medium;
+    color: #FFF;
+    float: right;
+    margin-right: -156px;
+    margin-top: 256px;
+}
+.Cost_Strongid
+{
+    height: 18px;
+    width: 109px;
+    /* background-color: #0FF; */
+    font-family: GothamNarrow-Medium;
+    color: #FFF;
+    float: right;
+    margin-right: -149px;
+    margin-top: 323px;
+}
+.Annual_Amount
+{
+    height: 18px;
+    width: 195px;
+    /* background-color: #0FF; */
+    font-family: GothamNarrow-Medium;
+    color: #FFF;
+    float: right;
+    margin-right: -194px;
+    margin-top: 391px;
+}
+.lb
+{
+    height: 18px;
+    width: 38px;
+    /* background-color: #0FF; */
+    font-family: GothamNarrow-Book;
+    color: #585858;
+    float: right;
+    margin-right: -126px;
+    margin-top: 426px;
+}
+.Total_Cost_Per_Horse
+{
+    height: 18px;
+    width: 157px;
+    /* background-color: #0FF; */
+    font-family: GothamNarrow-Medium;
+    color: #FFF;
+    float: right;
+    margin-right: -171px;
+    margin-top: 459px;
+}
+.tableft_inside_txt
+{
+	height: 18px;
+    width: 81px;
+	/*background-color: #0FF;*/ 
+	font-family:GothamNarrow-Medium;
+	color:#FFF;
+	float: left;
+    margin-top: 47px;
+    margin-left: 15px;
+}
+.Annual_Program
+{
+	height: 18px;
+    width: 114px;
+	/* background-color: #0FF; */
+	font-family:GothamNarrow-Medium;
+	color:#FFF;
+	float: left;
+    margin-top: 85px;
+    margin-left: -82px;
+}
+.Parasiticide_Pastes
+{
+	height: 37px;
+    width: 114px;
+	/* background-color: #0FF; */
+	font-family:GothamNarrow-Medium;
+	color:#FFF;
+	float: left;
+    margin-top: 236px;
+    margin-left: -114px;
+}
+.Parasiticide_Strongid
+{
+	height: 37px;
+    width: 114px;
+	/* background-color: #0FF; */
+	font-family:GothamNarrow-Medium;
+	color:#FFF;
+	float: left;
+    margin-top: 437px;
+    margin-left: -114px;
+}
+.Number_of_Horses
+ {
+    height: 37px;
+    width: 126px;
+    /* background-color: #0FF; */
+    font-family: GothamNarrow-Medium;
+    color: #FFF;
+    float: left;
+    margin-top: 531px;
+    margin-left: -114px;
+}
+/*******medium_table_txt********/
+.Parasiticide_Products
+{
+    height: 18px;
+    width: 149px;
+    /*background-color: #0FF;*/ 
+    font-family: GothamNarrow-Medium;
+    color: #FFF;
+    float: left;
+    margin-left: 15px;
+    margin-top: 11px;
+}
+.Percentage_of_Horses
+{
+    height: 18px;
+    width: 269px;
+    /*background-color: #0FF;*/ 
+    font-family: GothamNarrow-Medium;
+    color: #FFF;
+    float: left;
+    margin-left: 15px;
+    margin-top: 11px;
+}
+.table_medium_txt
+{
+	height: 18px;
+    width: 81px;
+	/*background-color: #0FF; */
+	font-family:GothamNarrow-Medium;
+	color:#FFF;
+	float: left;
+    margin-top: 47px;
+    margin-left: 15px;
+}
+/*******medium_table_txt********/
+
+/*******small_table_txt********/
+.table_small_txt
+{
+	height: 18px;
+    width: 81px;
+	/*background-color: #0FF;*/ 
+	font-family:GothamNarrow-Medium;
+	color:#FFF;
+	float: left;
+    margin-top: 47px;
+    margin-left: 15px;
+}
+/*******small_table_txt********/
+
+/*******table_txt********/
+
+/*******txt_box********/
+.txt_box_top
+{
+    float: right;
+    margin-right: 0px;
+    margin-top: 15px;
+    line-height: 22px;
+    width: 70px;
+    outline: none;
+    border-style: none;
+    font-family: GothamNarrow-Book;
+    text-align: center;
+    font-size: small;
+    color: #585858;
+    /*background-color: aquamarine;*/
+}
+/*******txt_box********/
+
+/*******Graph_box********/
+.graph_img
+{
+	height:371px;
+	width:950px;
+	/*background-color:#0FF;*/
+	background-image:url(../img/graph.png);
+	background-repeat:no-repeat; 
+	/*display: table;*/
+    float: left;
+    margin: 19px 34px;
+}
+.ans_txt_img
+{
+	height:88px;
+	width:950px;
+	/*background-color:#0FF;*/
+	background-image:url(../img/yellow_strp.png);
+	background-repeat:no-repeat; 
+	display: table;
+    margin: 0 0 0 34px;
+}
+.bck_btn
+{
+	height:47px;
+	width:275px;
+	/*background-color:#0FF;*/
+	background-image:url(../img/back_btn.png);
+	background-repeat:no-repeat; 
+	display: table;
+    margin: 30px 387px;
+}
+.graph_txt
+{
+    height: 18px;
+    width: 69px;
+    /*background-color: #0FF;*/ 
+    font-family: GothamNarrow-Medium;
+    color: #585858;
+    float: left;
+    margin-left: 58px;
+    margin-top: 54px;
+}
+.Total_Profit
+{   
+	height: 20px;
+    width: 272px;
+    /*background-color: #0FF;*/
+    font-family: GothamNarrow-Bold;
+    color: #FFF;
+    font-size: 1.2em;
+    float: left;
+    margin-left: 23px;
+    margin-top: 35px;
+    text-transform: uppercase;
+}
+
+/*******Graph_box********/
